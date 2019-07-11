@@ -1,3 +1,3 @@
 function finais (palavra){
-    return palavra.substr(-3,3)
+    return palavra.substr(-3)
 }
