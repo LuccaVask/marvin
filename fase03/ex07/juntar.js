@@ -1,3 +1,3 @@
 function juntar(belize,caracas){
-    return belize + "" + caracas
+    return parseInt(belize + "" + caracas)
 }
