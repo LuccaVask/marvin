@@ -1,7 +1,7 @@
 function alfabetoMilitar(vogal){
     var vogalmin = vogal.toLowerCase()
     if (vogalmin == "a"){
-        return "alfa"
+        return "alpha"
     } if (vogalmin == "e"){
         return "echo"
     } if (vogalmin == "i"){
@@ -11,6 +11,6 @@ function alfabetoMilitar(vogal){
     }if (vogalmin == "u"){
         return "uniform"
     } else {
-        return "false"
+        return false
     }
 }
