@@ -1,4 +1,8 @@
-function removerPosicao(array,num){
-    array.splice(num-1,1)
-    return array
+function removerPosicao(array){
+    var x = array.length
+    var y = x - 1
+    var z = array.toString()
+    var a = z.length
+    var b = a-y
+    return b
 }
