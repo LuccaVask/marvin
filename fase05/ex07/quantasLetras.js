@@ -1,4 +1,4 @@
-function removerPosicao(array){
+function quantasLetras(array){
     var x = array.length
     var y = x - 1
     var z = array.toString()
@@ -6,4 +6,3 @@ function removerPosicao(array){
     var b = a-y
     return b
 }
-
