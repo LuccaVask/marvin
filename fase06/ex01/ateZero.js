@@ -5,13 +5,12 @@ function ateZero(num){
         while(num>=zero){
             arr.push(zero)
             zero++
-            return arr
         }
     }else{
-        while(num<0){
+        while(num<zero){
             arr.push(num)
             num++
-            return arr
         }
     }
+    return arr
 }
