@@ -1,7 +1,7 @@
 function ateZero(num){
     var arr = []
     var zero = 0
-    if(num>zero){
+    if(num>=zero){
         while(num>=zero){
             arr.push(zero)
             zero++
