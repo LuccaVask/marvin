@@ -1,14 +1,25 @@
 function por42(num1,num2){
-    if(num1>num2){
-        while(num1>num2){
-            return num2%42
-            num2++
+    if(num1<num2){
+        while(num1<=num2){
+            if(num1%42 === 0){
+                return num1 + 42
+                break;
+            }else{
+                return false
+                console.log("Não encontrado")
+            }
+            num1++
         }
     }else{
-        while(num2>num1){
-            return num1%42
-            num1++
+        while(num1>=num2){
+            if(num2%42 === 0){
+                return num2 + 42
+                break;
+            }else{
+                return false
+                console.log("Não encontrado")
+            }
+            num2++
         }
     }
 }
-console.log(por42(5,4))
