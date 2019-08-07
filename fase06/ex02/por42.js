@@ -21,7 +21,7 @@ function por42(num1,num2){
         }
     }
     if(ok === 0){
-        console.log("Número não encontrado")
+        console.log("Não encontrado")
         return false
     }
 }
