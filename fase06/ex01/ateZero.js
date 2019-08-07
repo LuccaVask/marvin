@@ -7,7 +7,7 @@ function ateZero(num){
             zero++
         }
     }else{
-        while(num<zero){
+        while(num<=zero){
             arr.push(num)
             num++
         }
